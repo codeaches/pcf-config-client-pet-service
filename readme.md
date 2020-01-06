@@ -10,5 +10,5 @@
 
 [Codeaches Website]: https://codeaches.com
 
-[CircleCI badge]: https://circleci.com/gh/codeaches/pet-service.svg?style=shield&circle-token=:circle-token
-[CircleCI]: https://circleci.com/gh/codeaches/pet-service
+[CircleCI badge]: https://circleci.com/gh/codeaches/pcf-config-client-pet-service.svg?style=shield&circle-token=:circle-token
+[CircleCI]: https://circleci.com/gh/codeaches/pcf-config-client-pet-service
