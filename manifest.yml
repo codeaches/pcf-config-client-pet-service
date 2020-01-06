@@ -1,0 +1,12 @@
+---
+applications:
+- name: pet-service
+  random-route: true
+  instances: 1
+  path: target/pcf-config-client-pet-service-0.0.1-SNAPSHOT.jar
+  memory: 1G
+  env:
+    spring.application.name: petDetails
+    JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 13.+ } }'
+  services:
+    - my-config-server
